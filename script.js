@@ -13,19 +13,19 @@ const dots = [...document.querySelectorAll(".dot")];
 
 const slides = [
   {
-    image: "assets/graduation.jpg",
+    image: "graduation.jpg",
     small: "A BEAUTIFUL MEMORY",
     title: "Every moment becomes a memory.",
     text: "No matter how busy life gets, there are people and moments that make everything feel a little brighter."
   },
   {
-    image: "assets/flowers.jpg",
+    image: "flowers.jpg",
     small: "A LITTLE FLOWER FOR YOU",
     title: "Some feelings are better shown than explained.",
     text: "So here's a small bouquet of flowers, wrapped in a little animation, as a reminder that you are appreciated."
   },
   {
-    image: "assets/graduation.jpg",
+    image: "graduation.jpg",
     small: "ONE MORE THING",
     title: "Thank you for being part of the story.",
     text: "May the days ahead bring more smiles, more beautiful memories, and plenty of reasons to keep caring for one another."
