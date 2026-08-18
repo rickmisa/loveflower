@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Little Something for You ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-hearts" aria-hidden="true"></div>
+
+  <main class="scene">
+    <section class="intro" id="intro">
+      <div class="glow"></div>
+      <p class="eyebrow">A LITTLE SOMETHING</p>
+      <h1>For Someone Special <span>♥</span></h1>
+      <p class="subtitle">Some memories deserve a little animation.</p>
+      <button id="startBtn">Open My Heart <span>♥</span></button>
+    </section>
+
+    <section class="memory-card hidden" id="memoryCard">
+      <div class="photo-wrap">
+        <img id="memoryImage" src="assets/graduation.jpg" alt="A special memory">
+        <div class="photo-shine"></div>
+      </div>
+
+      <div class="message-area">
+        <p class="small-title" id="smallTitle">A BEAUTIFUL MEMORY</p>
+        <h2 id="mainTitle">Every moment becomes a memory.</h2>
+        <p id="message">
+          No matter how busy life gets, there are people and moments
+          that make everything feel a little brighter.
+        </p>
+
+        <div class="dots" id="dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+        <button class="next-btn" id="nextBtn">Next ♥</button>
+      </div>
+    </section>
+
+    <section class="final-card hidden" id="finalCard">
+      <div class="bouquet">
+        <img src="assets/flowers.jpg" alt="Beautiful flowers">
+      </div>
+      <p class="eyebrow">JUST FOR YOU</p>
+      <h2>Keep this little reminder...</h2>
+      <p class="final-message">
+        Distance, busy days, and time may change our routine,
+        but they don't have to erase the beautiful moments we share.
+      </p>
+      <div class="heart-big">♥</div>
+      <p class="signature">With lots of appreciation,<br><strong>from someone who cares</strong></p>
+      <button class="replay-btn" id="replayBtn">Replay ✨</button>
+    </section>
+  </main>
+
+  <div class="music-note" id="musicNote">♪</div>
+  <script src="script.js"></script>
+</body>
+</html>
